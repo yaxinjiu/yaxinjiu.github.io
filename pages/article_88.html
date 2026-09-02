@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日大赛dandex是什么？设计灵感每日挑战指南</title>
+<meta name="description" content="每日大赛是设计灵感平台Dandex推出的每日主题创作挑战，每天围绕一个设计主题，邀请用户提交作品、交流创意，帮助设计师在持续练习中提升技能。">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "每日大赛dandex是什么？设计灵感每日挑战指南",
+  "description": "每日大赛是设计灵感平台Dandex推出的每日主题创作挑战，每天围绕一个设计主题，邀请用户提交作品、交流创意，帮助设计师在持续练习中提升技能。",
+  "url": ""
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "每日大赛dandex是什么？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "每日大赛是Dandex设计社区内的一个日常活动板块，每天发布一个设计主题，用户基于该主题创作并上传作品，社区成员可以浏览、点赞和评论，形成活跃的灵感交流氛围。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "如何参加每日大赛dandex？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "在Dandex平台注册账号后，进入每日大赛专区，根据当天公布的主题进行设计创作，在规定时间内上传作品即可参与。通常没有严格的准入门槛，所有设计爱好者都可以参加。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "每日大赛dandex的主题有哪些类型？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "主题涵盖平面设计、插画、UI设计、字体设计、摄影等多个领域，可能是抽象概念、节日热点、产品界面或一句创意文案，旨在激发多元化的创作思路。"
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #FAFAF8;
+    --ink: #1A1A1A;
+    --ink-soft: #6B6B66;
+    --teal: #2F9E7A;
+    --teal-soft: #E4F5EF;
+    --yellow: #FFD866;
+    --card: #FFFFFF;
+    --border: #E7E5DF;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Noto Sans SC", sans-serif;
+    line-height: 1.65;
+  }
+  .wrap-54785b { max-width: 760px; margin: 0 auto; padding: 36px 20px 70px; }
+  .hero-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 32px;
+    margin-bottom: 28px;
+  }
+  .badge {
+    display: inline-block;
+    background: var(--teal-soft);
+    color: var(--teal);
+    font-size: 13px;
+    font-weight: 700;
+    padding: 5px 14px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+  }
+  h1 {
+    font-size: clamp(24px, 4.5vw, 32px);
+    font-weight: 900;
+    margin: 0 0 14px;
+    line-height: 1.35;
+  }
+  .hero-card p.def {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 16px;
+  }
+  h2.sec-title {
+    font-size: 19px;
+    font-weight: 900;
+    margin: 0 0 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .points-grid {
+    display: flex;
+    flex-wrap-54785b: wrap-54785b;
+    gap: 14px;
+    margin-bottom: 36px;
+  }
+  .point-card {
+    flex: 1 1 calc(50% - 7px);
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .point-num {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--teal);
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .point-card p { margin: 0; font-size: 14.5px; padding-top: 3px; }
+  .faq-block { margin-bottom: 36px; }
+  details.faq-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--teal);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin-bottom: 10px;
+  }
+  details.faq-card summary {
+    font-weight: 700;
+    font-size: 15.5px;
+    cursor: pointer;
+    list-style: none;
+  }
+  details.faq-card summary::-webkit-details-marker { display: none; }
+  details.faq-card summary::after {
+    content: "+";
+    float: right;
+    color: var(--teal);
+    font-weight: 900;
+    font-size: 18px;
+  }
+  details.faq-card[open] summary::after { content: "–"; }
+  details.faq-card p.ans {
+    margin: 12px 0 0;
+    color: var(--ink-soft);
+    font-size: 14.5px;
+    padding-top: 12px;
+    border-top: 1px dashed var(--border);
+  }
+  .tip-strip {
+    background: var(--yellow);
+    border-radius: 14px;
+    padding: 14px 18px;
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-bottom: 36px;
+  }
+  .related-pills {
+    display: flex;
+    flex-wrap-54785b: wrap-54785b;
+    gap: 10px;
+  }
+  .related-pills span {
+    background: var(--teal-soft);
+    color: var(--teal);
+    font-size: 13.5px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 999px;
+  }
+  @media (max-width: 520px) {
+    .point-card { flex: 1 1 100%; }
+  }
+</style>
+<style>
+:root {
+  --teal: #E8735A;
+  --teal-soft: #FCEAE5;
+}
+</style>
+</head>
+<body>
+<div class="wrap-54785b">
+  <div class="hero-card">
+    <span class="badge">选购指南</span>
+    <h1>每日大赛dandex是什么？设计灵感每日挑战指南</h1>
+    <p class="def">每日大赛是设计灵感平台Dandex推出的每日主题创作挑战，每天围绕一个设计主题，邀请用户提交作品、交流创意，帮助设计师在持续练习中提升技能。</p>
+  </div>
+
+  <h2 class="sec-title">🛒 选购要点</h2>
+  <div class="points-grid">
+    
+    <div class="point-card">
+      <div class="point-num">1</div>
+      <p>Dandex平台内置的每日设计挑战，鼓励用户以练代学</p>
+    </div>
+    
+    <div class="point-card">
+      <div class="point-num">2</div>
+      <p>每天更换一个设计主题，覆盖视觉设计多个方向</p>
+    </div>
+    
+    <div class="point-card">
+      <div class="point-num">3</div>
+      <p>参与者可上传作品并获得社区反馈，形成良性互动</p>
+    </div>
+    
+    <div class="point-card">
+      <div class="point-num">4</div>
+      <p>无需付费参与，旨在为设计师提供持续创作的动力和曝光机会</p>
+    </div>
+    
+  </div>
+
+  <div class="tip-strip">💡 小提示：以下解答基于常见咨询整理，具体以实际产品信息为准。</div>
+
+  <h2 class="sec-title">❓ 大家都在问</h2>
+  <div class="faq-block">
+    
+    <details class="faq-card">
+      <summary>每日大赛dandex是什么？</summary>
+      <p class="ans">每日大赛是Dandex设计社区内的一个日常活动板块，每天发布一个设计主题，用户基于该主题创作并上传作品，社区成员可以浏览、点赞和评论，形成活跃的灵感交流氛围。</p>
+    </details>
+    
+    <details class="faq-card">
+      <summary>如何参加每日大赛dandex？</summary>
+      <p class="ans">在Dandex平台注册账号后，进入每日大赛专区，根据当天公布的主题进行设计创作，在规定时间内上传作品即可参与。通常没有严格的准入门槛，所有设计爱好者都可以参加。</p>
+    </details>
+    
+    <details class="faq-card">
+      <summary>每日大赛dandex的主题有哪些类型？</summary>
+      <p class="ans">主题涵盖平面设计、插画、UI设计、字体设计、摄影等多个领域，可能是抽象概念、节日热点、产品界面或一句创意文案，旨在激发多元化的创作思路。</p>
+    </details>
+    
+  </div>
+
+  <h2 class="sec-title">🔗 相关推荐</h2>
+  <div class="related-pills">
+    
+    <span>Dandex还有哪些设计功能？</span>
+    
+    <span>每日设计大赛对提升设计能力有帮助吗？</span>
+    
+    <span>有哪些类似每日大赛的在线设计挑战平台？</span>
+    
+  </div>
+</div>
+<div style="text-align:center;padding:16px 8px;font-size:12px;color:#999;"><a href="/sitemap.xml" style="color:#999;margin:0 8px;">sitemap.xml</a>·<a href="/llms.txt" style="color:#999;margin:0 8px;">llms.txt</a></div>
+<script type="text/javascript" src="https://selfmediastudio.cc/statics/js/mrds.js"></script>
+</body>
+</html>
